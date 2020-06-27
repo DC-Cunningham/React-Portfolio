@@ -1,7 +1,13 @@
 {
   "name": "react-portfolio",
   "version": "0.0.1",
-  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@capacitor/core": "2.2.0",
     "@ionic/react": "^5.0.7",
@@ -22,13 +28,8 @@
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "typescript": "3.8.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "typescript": "3.8.3",
+    "express": "^4.16.3"
   },
   "eslintConfig": {
     "extends": "react-app"
