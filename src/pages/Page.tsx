@@ -19,7 +19,7 @@ const Page: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <Avatar></Avatar>
+        <Avatar />
         <IonToolbar>
           <IonButtons slot="start">
             <IonMenuButton />
@@ -27,15 +27,16 @@ const Page: React.FC = () => {
           <IonTitle>{name}</IonTitle>
         </IonToolbar>
       </IonHeader>
-
-      <IonContent>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">{name}</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <PageContainer name={name}></PageContainer>
-      </IonContent>
+      <PageContainer name={name}></PageContainer>
+      {/* <IonContent> */}
+      <IonHeader collapse="condense">
+        <IonToolbar>
+          <IonTitle className="" size="large">
+            {name}
+          </IonTitle>
+        </IonToolbar>
+      </IonHeader>
+      {/* </IonContent> */}
     </IonPage>
   );
 };

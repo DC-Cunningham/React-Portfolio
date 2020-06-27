@@ -1,5 +1,9 @@
 import * as React from "react";
 import "./PageContainer.css";
+import Profile from "./Profile";
+import Portfolio from "./Portfolio";
+import Resume from "./Resume";
+import Contact from "./Contact";
 
 interface PageProps {
   name: string;
@@ -8,16 +12,13 @@ interface PageProps {
 const PageContainer: React.FC<PageProps> = ({ name }) => {
   switch (name) {
     case "Portfolio":
-      return <div className="container">Portfolio component</div>;
-      break;
+      return <Portfolio />;
     case "Resume":
-      return <div className="container">Resume component</div>;
-      break;
+      return <Resume />;
     case "Contact":
-      return <div className="container">Contact component</div>;
-      break;
+      return <Contact />;
     default:
-      return <div className="container">Profile component</div>;
+      return <Profile />;
   }
 };
 

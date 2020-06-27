@@ -1,11 +1,7 @@
 import React from "react";
-import { IonContent } from "@ionic/react";
+import PortfolioItem from "./PortfolioItem";
 import "./Portfolio.css";
 
-const Portfolio: React.FC = () => (
-  <IonContent>
-    <p>this is a Portfolio</p>
-  </IonContent>
-);
+const Portfolio: React.FC = () => <PortfolioItem />;
 
 export default Portfolio;

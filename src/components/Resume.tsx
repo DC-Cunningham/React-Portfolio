@@ -7,13 +7,12 @@ import {
   IonCardTitle,
   IonCardContent,
 } from "@ionic/react";
-import "./Profile.css";
 
-const Profile: React.FC = () => (
+const Resume: React.FC = () => (
   <IonContent>
     <IonCard>
       <IonCardHeader>
-        <IonCardTitle>This is a profile</IonCardTitle>
+        <IonCardTitle>This is a Resume</IonCardTitle>
         <IonCardSubtitle>It's all about me</IonCardSubtitle>
       </IonCardHeader>
 
@@ -24,4 +23,4 @@ const Profile: React.FC = () => (
   </IonContent>
 );
 
-export default Profile;
+export default Resume;

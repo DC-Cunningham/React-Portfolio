@@ -21,9 +21,10 @@ import {
   mailSharp,
   briefcaseOutline,
   briefcaseSharp,
+  logoGithub,
+  logoLinkedin,
 } from "ionicons/icons";
 import "./Menu.css";
-import { Avatar } from "./Avatar";
 
 interface AppPage {
   url: string;
@@ -59,7 +60,14 @@ const appPages: AppPage[] = [
   },
 ];
 
-const labels = ["React", "Node", "Javascript"];
+const labels = [
+  { name: "Github", logo: logoGithub, link: "https://github.com/DCRevResLabs" },
+  {
+    name: "LinkedIn",
+    logo: logoLinkedin,
+    link: "https://www.linkedin.com/in/dc-cunningham/",
+  },
+];
 
 const Menu: React.FC = () => {
   const location = useLocation();
@@ -91,16 +99,15 @@ const Menu: React.FC = () => {
             );
           })}
         </IonList>
-        {/* use this are for skill logos perhaps with hover characteristics
         <IonList id="labels-list">
-          <IonListHeader>Labels</IonListHeader>
+          <IonListHeader>Find me on the web</IonListHeader>
           {labels.map((label, index) => (
-            <IonItem lines="none" key={index}>
-              <IonIcon slot="start" icon={bookmarkOutline} />
-              <IonLabel>{label}</IonLabel>
+            <IonItem href={label.link} lines="none" key={index}>
+              <IonIcon slot="start" icon={label.logo} />
+              <IonLabel>{label.name}</IonLabel>
             </IonItem>
           ))}
-        </IonList> */}
+        </IonList>
       </IonContent>
     </IonMenu>
   );
