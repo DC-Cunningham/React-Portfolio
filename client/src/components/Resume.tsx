@@ -16,7 +16,6 @@ const Resume: React.FC = () => (
         <IonCardTitle>This is a Resume</IonCardTitle>
         <IonCardSubtitle>It's all about me</IonCardSubtitle>
       </IonCardHeader>
-
       <IonCardContent>
         <Resume>
       </IonCardContent>
