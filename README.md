@@ -32,4 +32,4 @@ The application has been deployed on Heroku [here](https://trundle-decade.heroku
 
 ## License
 
-© 2020 Revolution Research Laboratories Pty.Ltd. All Rights Reserved.
+© 2020 The Beautiful Revolution All Rights Reserved.
