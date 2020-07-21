@@ -21,6 +21,12 @@ const Contact: React.FC = () => {
   return (
     <IonContent>
       <IonCard>
+        <IonCardHeader href="mailto:dc@beautifulrevolution.com.au">
+          dc@beautifulrevolution.com.au
+        </IonCardHeader>
+      </IonCard>
+
+      {/* <IonCard>
         <IonItemDivider />
         <IonItem>
           <IonLabel position="floating">Name</IonLabel>
@@ -63,7 +69,7 @@ const Contact: React.FC = () => {
         <IonButton expand="block">
           <IonIcon slot="icon-only" icon={paperPlaneOutline} />
         </IonButton>
-      </IonCard>
+      </IonCard> */}
     </IonContent>
   );
 };

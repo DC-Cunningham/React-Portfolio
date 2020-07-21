@@ -15,8 +15,9 @@ const Resume: React.FC = () => (
         <IonCardTitle>Skills:</IonCardTitle>
       </IonCardHeader>
       <IonCardContent>
-        <h5></h5> REACT, HTML, CSS and Javascript. Frameworks: Bootstrap,
-        Material UI, Materialize and Ionic.
+        <IonCardSubtitle>Front End:</IonCardSubtitle>
+        REACT, HTML, CSS and Javascript. Frameworks: Bootstrap, Material UI,
+        Materialize and Ionic.
         <IonCardSubtitle>Back End:</IonCardSubtitle>
         MongoDB, Mongoose, Express, MySQL, NodeJS and Sequelize.
         <IonCardSubtitle>Tools:</IonCardSubtitle>

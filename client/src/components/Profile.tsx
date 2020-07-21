@@ -28,9 +28,11 @@ const Profile: React.FC = () => (
         Adept at swift problem solving and great time management with a focus on
         achieving strong and financially efficient outcomes for business.
         <br />
+        <br />
         Recently earned a certificate in Full Stack Development from Monash
         University Coding Bootcamp, to further develop skills in React.js,
         responsive web design, JavaScript, and Node.
+        <br />
         <br />I am excited to leverage my broad skillset as part of a
         fast-paced, quality-driven team in order to build better experiences for
         all technology users.
