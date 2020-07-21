@@ -7,7 +7,7 @@ import {
   IonCardTitle,
   IonCardContent,
 } from "@ionic/react";
-import Resume from "../images/DavidCunningham.pdf"
+import Resume from "../images/DavidCunningham.pdf";
 
 const Resume: React.FC = () => (
   <IonContent>
@@ -17,7 +17,7 @@ const Resume: React.FC = () => (
         <IonCardSubtitle>It's all about me</IonCardSubtitle>
       </IonCardHeader>
       <IonCardContent>
-        <Resume>
+        <Resume />
       </IonCardContent>
     </IonCard>
   </IonContent>
