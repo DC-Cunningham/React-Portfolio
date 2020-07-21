@@ -12,14 +12,14 @@ const Resume: React.FC = () => (
   <IonContent>
     <IonCard>
       <IonCardHeader>
-        <IonCardTitle>This is a Resume</IonCardTitle>
-        <IonCardSubtitle>It's all about me</IonCardSubtitle>
+        <IonCardTitle>Skills:</IonCardTitle>
       </IonCardHeader>
       <IonCardContent>
-        <h3>Skills:</h3>
-        <h5>Front End:</h5> REACT, HTML, CSS and Javascript. Frameworks:
-        Bootstrap, Material UI, Materialize and Ionic. <h5>Back End:</h5>{" "}
-        MongoDB, Mongoose, Express, MySQL, NodeJS and Sequelize. <h5>Tools:</h5>{" "}
+        <h5></h5> REACT, HTML, CSS and Javascript. Frameworks: Bootstrap,
+        Material UI, Materialize and Ionic.
+        <IonCardSubtitle>Back End:</IonCardSubtitle>
+        MongoDB, Mongoose, Express, MySQL, NodeJS and Sequelize.
+        <IonCardSubtitle>Tools:</IonCardSubtitle>
         VS Code, Photoshop, Illustrator, and Git.
         <ul>
           {" "}
@@ -31,7 +31,7 @@ const Resume: React.FC = () => (
             resolving issues{" "}
           </li>
         </ul>
-        <h3>Education: </h3>
+        <IonCardTitle>Education:</IonCardTitle>
         <h5>Full Stack Coding Bootcamp: Monash University</h5>
         <h5>Bachelor of Environmental Science: The University of Melbourne</h5>
         <h5>

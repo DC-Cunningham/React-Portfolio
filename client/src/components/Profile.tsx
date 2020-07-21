@@ -13,15 +13,15 @@ const Profile: React.FC = () => (
   <IonContent>
     <IonCard>
       <IonCardHeader>
-        <IonCardTitle>This is a profile</IonCardTitle>
-        <IonCardSubtitle>It's all about me</IonCardSubtitle>
+        <IonCardSubtitle>
+          {" "}
+          Full stack Web Developer leveraging an extensive background in the
+          bicycle industry to build user focused experiences on multiple
+          platforms.
+        </IonCardSubtitle>
       </IonCardHeader>
 
       <IonCardContent>
-        Full stack Web Developer leveraging an extensive background in the
-        bicycle industry to build user focused experiences on multiple
-        platforms.
-        <br />
         By incorporating a solid understanding in web technologies with
         substantial bicycle industry experience I have built multiple workshops
         from the ground up into highly efficient and profitable enterprises
