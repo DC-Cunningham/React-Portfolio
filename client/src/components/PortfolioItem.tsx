@@ -12,7 +12,7 @@ import {
   IonContent,
   IonCol,
 } from "@ionic/react";
-
+import "./Portfolio.css";
 import revolutionResearch from "../images/revolutionResearch.jpg";
 import vicChamps from "../images/vicChamps.jpg";
 import weCurate from "../images/weCurate.jpg";
@@ -64,14 +64,14 @@ const PortfolioItem: React.FC = () => (
             <>
               <IonCol size="12">
                 <IonItem href={item.link} target="_blank" key={i}>
-                  <IonCard>
+                  <IonCard class="portfolio-item">
                     <IonRow class="ion-align-items-center">
-                      <IonCol size-md="6" size-sm="12">
+                      <IonCol size-md="6" size-sm="12" size-xs="12">
                         <IonCardHeader>{item.text}</IonCardHeader>
                         <IonThumbnail slot="end"></IonThumbnail>
                         <IonImg src={item.src} />
                       </IonCol>
-                      <IonCol size-md="6" size-sm="12">
+                      <IonCol size-md="6" size-sm="12" size-xs="12">
                         <IonCardContent>{item.blurb}</IonCardContent>
                       </IonCol>
                     </IonRow>
