@@ -7,7 +7,6 @@ import {
   IonListHeader,
   IonMenu,
   IonMenuToggle,
-  IonNote,
 } from "@ionic/react";
 
 import React from "react";
@@ -66,6 +65,11 @@ const labels = [
     name: "LinkedIn",
     logo: logoLinkedin,
     link: "https://www.linkedin.com/in/dc-cunningham/",
+  },
+  {
+    name: "Email",
+    logo: mailOutline,
+    link: "mailto:dc@beautifulrevolution.com.au",
   },
 ];
 

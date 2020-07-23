@@ -3,7 +3,6 @@ import {
   IonContent,
   IonCard,
   IonCardHeader,
-  IonCardSubtitle,
   IonCardTitle,
   IonCardContent,
 } from "@ionic/react";
@@ -13,18 +12,18 @@ const Profile: React.FC = () => (
   <IonContent>
     <IonCard>
       <IonCardHeader>
-        <IonCardSubtitle>
-          {" "}
+        <IonCardTitle>
           Full stack Web Developer leveraging an extensive background in the
           bicycle industry to build user focused experiences on multiple
           platforms.
-        </IonCardSubtitle>
+        </IonCardTitle>
       </IonCardHeader>
 
       <IonCardContent>
         By incorporating a solid understanding in web technologies with
         substantial bicycle industry experience I have built multiple workshops
-        from the ground up into highly efficient and profitable enterprises
+        from the ground up into highly efficient and profitable enterprises.
+        <br />
         Adept at swift problem solving and great time management with a focus on
         achieving strong and financially efficient outcomes for business.
         <br />

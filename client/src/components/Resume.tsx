@@ -2,42 +2,64 @@ import React from "react";
 import {
   IonContent,
   IonCard,
-  IonCardHeader,
   IonCardSubtitle,
   IonCardTitle,
   IonCardContent,
+  IonItemDivider,
 } from "@ionic/react";
 
 const Resume: React.FC = () => (
   <IonContent>
     <IonCard>
-      <IonCardHeader>
-        <IonCardTitle>Skills:</IonCardTitle>
-      </IonCardHeader>
       <IonCardContent>
-        <IonCardSubtitle>Front End:</IonCardSubtitle>
-        REACT, HTML, CSS and Javascript. Frameworks: Bootstrap, Material UI,
-        Materialize and Ionic.
-        <IonCardSubtitle>Back End:</IonCardSubtitle>
-        MongoDB, Mongoose, Express, MySQL, NodeJS and Sequelize.
-        <IonCardSubtitle>Tools:</IonCardSubtitle>
-        VS Code, Photoshop, Illustrator, and Git.
+        <IonCardTitle>Soft Skill Highlights:</IonCardTitle>
         <ul>
-          {" "}
-          <li>Strong interpersonal skills</li>{" "}
+          <li>Strong interpersonal skills</li>
           <li>Excellent communication skills</li>{" "}
-          <li>Ability to prioritise and manage time well</li>
+          <li>
+            Ability to prioritise and manage time as the conditions demand
+          </li>
           <li>
             Logical, analytical and efficient approach to solving problems and
-            resolving issues{" "}
+            resolving issues
           </li>
         </ul>
+      </IonCardContent>
+      <IonItemDivider />
+      <IonCardContent>
+        <IonCardTitle>Technology Skills:</IonCardTitle>
+        <br />
+        <IonCardSubtitle>Front End:</IonCardSubtitle>
+        <IonCardContent>
+          REACT, HTML, CSS and Javascript. Frameworks: Bootstrap, Material UI,
+          Materialize and Ionic.
+        </IonCardContent>
+        <IonCardSubtitle>Back End:</IonCardSubtitle>
+        <IonCardContent>
+          MongoDB, Mongoose, Express, MySQL, NodeJS and Sequelize.
+        </IonCardContent>
+        <IonCardSubtitle>Tools:</IonCardSubtitle>
+        <IonCardContent>
+          VS Code, Photoshop, Illustrator, and Git.
+        </IonCardContent>
+      </IonCardContent>
+
+      <IonItemDivider />
+
+      <IonCardContent>
         <IonCardTitle>Education:</IonCardTitle>
-        <h5>Full Stack Coding Bootcamp: Monash University</h5>
-        <h5>Bachelor of Environmental Science: The University of Melbourne</h5>
-        <h5>
+        <br />
+        <IonCardSubtitle>
+          Full Stack Coding Bootcamp: Monash University
+        </IonCardSubtitle>
+        <br />
+        <IonCardSubtitle>
+          Bachelor of Environmental Science: The University of Melbourne
+        </IonCardSubtitle>
+        <br />
+        <IonCardSubtitle>
           Certificate IV in Small Business: Swinburne University of Technology
-        </h5>
+        </IonCardSubtitle>
         <br />
         <br />
         References available on request

@@ -6,7 +6,7 @@ export const Avatar: React.FC = () => (
   <IonItem>
     <IonAvatar slot="start">
       <img
-        src="https://avatars0.githubusercontent.com/u/47209814?s=460&u=1fdffb7687345e75a160fda9847638d47ce05b5d&v=4"
+        src="https://media-exp1.licdn.com/dms/image/C5635AQHPu_g_3phhjg/profile-framedphoto-shrink_200_200/0?e=1595552400&v=beta&t=CZK8pqKC8v2XmVAaxpU7i67v9cFXgOElx0R6PK21nig"
         alt="Avatar"
       />
     </IonAvatar>
