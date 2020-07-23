@@ -37,21 +37,21 @@ const items: Item[] = [
     text: "Revolution Research Laboratories",
     link: "https://www.revolutionresearch.com.au/",
     blurb:
-      "A website built on the Wordpress framework. This site provides a clear and icon driven link to the services provided. ",
+      "A website built on the Wordpress framework. This site provides a clear and icon driven link to the services provided. Responsible for the design, icon creation, collateral, hosting and maintenance of the website",
   },
   {
     src: vicChamps,
     text: "Victorian Mountain Bike Championship Series",
     link: "https://vicchampseries.com.au/",
     blurb:
-      "A website built on the Wordpress framework. This site provides a landing point for Victorian mountain bikers to learn all the details about the future and past races in their State Series.",
+      "A website built on the Wordpress framework. This site provides a landing point for Victorian mountain bikers to learn all the details about the future and past races in their State Series. Responsible for the design, collateral creation and maintenance of the website.",
   },
   {
     src: weCurate,
     text: "we curate",
     link: "https://www.wecurate.com.au/",
     blurb:
-      "A responsive website built using the Bootstrap Framework. This site puts an emphasis on design to help purvey the ethos of the client. Creating unique homes with depth, warmth and character.",
+      "A responsive website built using the Bootstrap Framework. This site puts an emphasis on design to help purvey the ethos of the client. Creating unique homes with depth, warmth and character. Responsible for taking the clients concept and applying it to the design, coding, deployment and hosting of the website.",
   },
 ];
 
