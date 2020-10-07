@@ -20,17 +20,6 @@ const Page: React.FC = () => {
     <>
       <IonPage>
         <IonHeader>
-          <IonToolbar>
-            <IonTitle>
-              <a href="https://www.beautifulrevolution.com.au">
-                <img
-                  src="https://www.beautifulrevolution.com.au/assets/images/TBR_WebHeader_880x218_W.png"
-                  style={{ width: "400px" }}
-                  alt="The Beautiful Revolution Logo"
-                ></img>
-              </a>
-            </IonTitle>
-          </IonToolbar>
           <Avatar />
           <IonToolbar>
             <IonButtons slot="start">

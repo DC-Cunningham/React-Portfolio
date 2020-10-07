@@ -1,13 +1,7 @@
 import Menu from "./components/Menu";
 import Page from "./pages/Page";
 import React from "react";
-import {
-  IonApp,
-  IonRouterOutlet,
-  IonSplitPane,
-  IonToolbar,
-  IonTitle,
-} from "@ionic/react";
+import { IonApp, IonRouterOutlet, IonSplitPane } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { Redirect, Route } from "react-router-dom";
 
