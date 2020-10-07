@@ -60,7 +60,11 @@ const appPages: AppPage[] = [
 ];
 
 const labels = [
-  { name: "Github", logo: logoGithub, link: "https://github.com/DCRevResLabs" },
+  {
+    name: "Github",
+    logo: logoGithub,
+    link: "https://github.com/DC-Cunningham",
+  },
   {
     name: "LinkedIn",
     logo: logoLinkedin,

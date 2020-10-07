@@ -15,7 +15,7 @@ const Resume: React.FC = () => (
         <IonCardTitle>Soft Skill Highlights:</IonCardTitle>
         <ul>
           <li>Strong interpersonal skills</li>
-          <li>Excellent communication skills</li>{" "}
+          <li>Excellent communication skills</li>
           <li>
             Ability to prioritise and manage time as the conditions demand
           </li>
@@ -27,20 +27,21 @@ const Resume: React.FC = () => (
       </IonCardContent>
       <IonItemDivider />
       <IonCardContent>
-        <IonCardTitle>Technology Skills:</IonCardTitle>
+        <IonCardTitle>Technical Proficiencies:</IonCardTitle>
         <br />
         <IonCardSubtitle>Front End:</IonCardSubtitle>
-        <IonCardContent>
-          REACT, HTML, CSS and Javascript. Frameworks: Bootstrap, Material UI,
-          Materialize and Ionic.
-        </IonCardContent>
+        <IonCardContent>REACT, HTML, CSS and Javascript.</IonCardContent>
         <IonCardSubtitle>Back End:</IonCardSubtitle>
         <IonCardContent>
           MongoDB, Mongoose, Express, MySQL, NodeJS and Sequelize.
         </IonCardContent>
+        <IonCardSubtitle>Frameworks:</IonCardSubtitle>
+        <IonCardContent>
+          Bootstrap, Material UI, Wordpress, Materialize and Ionic.
+        </IonCardContent>
         <IonCardSubtitle>Tools:</IonCardSubtitle>
         <IonCardContent>
-          VS Code, Photoshop, Illustrator, and Git.
+          Photoshop, Illustrator, VS Code and Git.
         </IonCardContent>
       </IonCardContent>
 

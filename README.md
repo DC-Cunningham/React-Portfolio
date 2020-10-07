@@ -26,7 +26,7 @@ The application has been deployed on Heroku [here](https://trundle-decade.heroku
 
 ### Main Author
 
-[DCRevResLabs](https://github.com/DCRevResLabs)
+[DC-Cunningham](https://github.com/DC-Cunningham)
 
 ![Author Avatar](https://avatars0.githubusercontent.com/u/47209814?v=4&s=100)
 

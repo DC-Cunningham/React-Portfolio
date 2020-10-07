@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
+  "homepage": "https://www.beautifulrevolution.com.au/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
